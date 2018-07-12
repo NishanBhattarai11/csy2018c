@@ -1,0 +1,71 @@
+*{/*whole properties made*/
+	box-sizing: border-box;/*made size of box*/
+}
+body{/*body made*/
+	background-color: white;/*bg color inserted*/
+	margin: 0;/* adjusted margin */
+	
+	background-size: cover;/*position of image*/
+
+}
+header{/*maintained header*/
+    
+     float: all;/*made float*/
+      font-size: 24px;/*size of words*/
+     font-family: 'Permanent Marker', cursive;/*species of writing*/
+     text-align: center;/*words pt at centre*/
+    
+     color: lightgrey;/*color given to letter*/
+}
+.topnavigation{/*navigation bar made*/
+	letter-spacing: 9%;/*space in betweenwords given*/
+	background-color: white;/*bg colour*/
+	text-align: center;/*text at proper place*/
+	display: block;/*words maade block*/
+	overflow: hidden;/*overflow made to hidden*/
+	text-shadow: 4%;/*made shadow to words*/
+	
+	opacity: 0.4;/*made transparent*/
+	
+}
+.topnavigation a{/*navigation class made*/
+	transition: 0.4s;/*made transition to words*/
+	float: left;/*created float*/
+	opacity: 49%;/*created transparent*/
+	color: black;/*words color given*/
+	text-align: center;/*words at center*/
+	padding: 13px 165x;/*creted padding*/
+	text-decoration: none;/*decoration made to none*/
+		padding: 1.1%;/*maintain proper padding*/	
+	display: block;/*words are changedinto block*/
+	
+	font-size: 23px;/*letter size*/
+
+	
+}
+.topnavigation a:hover {/* hover on navigation bar*/
+	color: black;/*set color to words*/
+	background-color: lightblue;/*bg color*/
+	
+	font-weight: 999;/*letter weight*/
+}
+footer img{/*footer image created*/
+	
+	height: 49px;/*height image*/
+	
+	width: 49px;/*width image*/
+	margin: 1.2%;/*margin inserted*/
+	border-radius: 35%;/*image radius*/
+}
+footer{/*footer made*/
+	align-items: left;/*items on left*/
+
+font-size: 15px;/*letter size*/
+
+text-align: center;/*letter at center*/
+
+}
+@media screen and (max-width: 600px) {/*adjust responsive properties*/
+    .column.side, .Center.Column {/*set on */
+        width: 100%;/* width of screen adjusted*/
+    }

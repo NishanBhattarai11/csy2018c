@@ -1,0 +1,113 @@
+   *{/*sizegiven to box*/
+	box-sizing: border-box;/*shape of box*/
+}
+body{/*body part */
+	margin: 0;/*margin given to page*/
+	
+}
+header{/*header of page*/
+    
+     font-family: 'Permanent Marker', cursive;/* style of letter*/
+     color: lightgrey;/*color given to heading*/
+     font-size: 25px;/*size */
+     text-align: center;/*location of text*/
+     
+}
+.topnavigation{/*top bar created*/
+	
+	text-align: center;/*location of text*/
+	text-shadow: 19px;/*text shadddow*/
+	display: block;/*properties of displaying letter*/
+	color: lightgrey;/*color given to heading*/
+}
+.topnavigation a{/* navigation made*/
+	padding: 1%;/*padding oprated*/
+	transition: 0.9s;/*transition maintain*/
+	color: black;/*colour given to font*/
+	float: left;/* in left*/
+	text-align: center;/*location*/
+	padding: 1%;/*padding oprated*/
+	display: block;/*properties of displaying letter*/
+	opacity: 0.5;/*opaque made*/
+	
+	text-decoration: none;/*text decoration operated*/
+	font-size: 20px;/*letter size*/
+	
+	
+	
+
+}
+.topnavigation a:hover {/*topnavigation created*/
+	background-color: lightblue;/*color given*/
+	
+	font-weight: 1000px;/*letter weigght given*/
+	color: black;/*color given*/
+
+}
+
+.Center.Column{/*Center column created*/
+	margin-top: 12%;/* margin given*/
+background-size: cover;/*bg image adjusted*/
+
+background-image: url(bg.jpg);/*background image of page*/
+background-color: blue;/*bg color is given*/
+height: 50%;/*height of page maingtained*/
+
+
+width: 100%;/*width givenn*/
+text-align: center;/*location of text*/
+
+padding: 40px 50px;/*adjusted margin*/
+color: black;/*color given*/
+
+}
+
+.text{/*text operated*/
+	font-size: 45px;/*size of letter*/
+
+	
+}
+.Center.Column a{/*column middle created*/
+	display: inline-block;/*column made inline*/
+	
+	transition: 0.3s;/*put transition to bar*/
+
+	color: white;/*words colour*/
+	text-transform: uppercase;/*words made in upperform*/
+	
+	font-size: 35px;/*letter size*/
+	background: black;/*bg colour*/
+	padding: 10px;/*padding made*/
+	text-decoration: none;/*made no decoration to text*/
+}
+.column.middle a {/*middle created*/
+background: black;/*word color*/
+color: white;/*clor maintained*/
+}
+
+
+img{/*image head created*/
+	margin: 1%;/*gap given*/
+	width: 50px;/*width adjust*/
+	height: 45px;/*height adjust*/
+	border-radius: 35%;/*border image made*/
+	margin-top: 1%;/*magin made*/
+	
+	
+
+
+}
+a{/*link given*/
+	text-decoration-line: none;/*no decoration*/
+	color: black;/*color of text*/
+}
+footer{
+font-size: 15px;/* font size adjusted*/
+
+text-align: center;/*words adjust between centre of page*/
+}
+@media screen and (max-width: 600px) {/*adjust responsive properties*/
+    .column.side, .Center.Column {/*set on */
+        width: 100%;/* width of screen adjusted*/
+    }
+   

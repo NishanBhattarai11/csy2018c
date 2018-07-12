@@ -1,0 +1,109 @@
+*{/*box size adjusted*/
+	box-sizing: border-box;/*box size created*/
+}
+body{/*body made*/
+	
+
+	background-size: cover;/*picture background*/
+	margin: 0;/*margin*/
+	background-position: center;/*bg image location*/
+		background-image: url("naa.jpg");/*image adjusted  in back*/
+}
+
+
+header{/*header given*/
+	 color: lightgrey;/* color given to word*/
+    
+     font-family: 'Permanent Marker', cursive;/*writing style*/
+     font-size: 23px;/* word size*/
+     text-align: center;/*text at centre*/
+    
+}
+article{/*article name given*/
+ display: flex;/*flex is adjust*/
+}
+.topnavigation{/* navigation made*/
+	text-shadow: 3%;/*shadow maintain to words*/
+	opacity: 0.4;/*made opaque*/
+	text-align: center;/*words in centre*/
+	
+	letter-spacing: 11%;/*letter gap*/
+	
+	display: block;/*block made to letters*/
+	overflow: hidden;/*overflow inserted*/
+}
+.topnavigation a{/*navigation put*/
+	font-size: 23px;/* wordd size*/
+	display: block;/*make block */
+	opacity: 0.3;/*made opaque*/
+	float: left;/*float made*/
+	
+	text-align: center;/*words at centre*/
+	padding: 2px 1px;/*padding made*/
+	color: black;/*letter colour*/
+	
+	
+	transition: 0.4s;/*transition done*/
+	padding: 1.5%;/* put padding*/
+	
+	text-decoration: none;/*decoration made*/
+}
+.topnavigation a:hover {/*hover property inserted */
+	color: black;/*leter color*/
+	background-color: lightblue;/*bg color*/
+	
+	font-weight: 999px;/*weight of letter*/
+}
+iframe{/*map embeded*/
+		width: 97%;/*width given*/
+	margin: 0.6%;/*gap made*/
+
+	
+	padding: 2.5%;/*padding made*/
+}
+
+input[type=submit] {/*input make*/
+    width: 100%;/*width*/
+    background-color: blue;/*bg color of page*/
+   color: white;/*color to letter given*/
+    margin: 7px ;/*margin given*/
+    border: none;/*border inserted*/
+      padding: 12px 18px;/*padding done*/
+     cursor: pointer;/*when pointing shows its own property*/
+  
+    border-radius: 1%;/*corner at image*/
+     
+    
+   
+}
+
+input[type=submit]:hover {/*hover property inserted*/
+    background-color: black;/*bg colour given*/
+}
+
+div {/*class created*/
+    border-radius: 3px;/*corner given*/
+    
+    padding: 19px;/*padding made*/
+    }
+
+    footer img{/*end page image*/
+    	border-radius: 35%;/*shaoegiven to image*/
+	margin: 1.1%;/*gap maintained*/
+	
+	
+	width: 48px;/*width given*/
+
+	
+	height: 48px;/*height given*/
+}
+footer{
+	font-size: 15px;/*size to words*/
+
+text-align: center;/*words are puten at middle page*/
+}
+@media screen and (max-width: 600px) {/*adjust responsive properties*/
+    .column.side, .Center.Column {/*set on */
+        width: 100%;/* width of screen adjusted*/
+    }
+   

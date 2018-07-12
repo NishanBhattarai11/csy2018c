@@ -1,0 +1,78 @@
+*{/*whole */
+	box-sizing: border-box;/*border size of box*/
+}
+body{/*created body*/
+	margin: 0;/*margin given*/
+	background-color: white;/*bg  color of page*/
+	background-image: url();/*bg image*/
+	background-size: cover;/*size of image*/
+}
+article  h1{/*made class aarticle*/
+font-size: 73px;/*size given*/
+text-align: center;/*words at page centre*/
+
+
+}
+article img{/*image in class article*/
+	margin-left: 19%;/*gap made*/
+}
+article{/*artice  made*/
+	margin-top: 4%;/*proper magin made*/
+}
+header{/*made header*/
+    text-align: center;/*words at proper place*/
+     float: all;/*floatmade */
+     font-family: 'Permanent Marker', cursive;/*style of letter*/
+     font-size: 23px;/*size of letter maintained*/
+     color: lightgrey;/*words color*/
+}
+.topnavigation{/*div class created*/
+	letter-spacing: 9%;/*proper gap made*/
+	
+	background-color: white;/*bg colour made*/
+	text-align: center;/*words in centre of page*/
+	display: block;/*words made block*/
+	text-shadow: 4%;/*shadow created*/
+	overflow: hidden;/*made hidden*/
+	opacity: 0.4;/*created transparent*/
+	
+}
+.topnavigation a{/*made sub class of navigation*/
+	transition: 0.5s;/*made transition*/
+	display: block;/*made block*/
+	color: black;/*words color*/
+	float: left;/*float added*/
+	opacity: 0.5%;/*created transparent*/
+	text-align: center;/*proper text is given*/
+	padding: 13px 15px;/*proper padding is made*/
+	font-size: 24px;/*size of letter*/
+	
+	text-decoration: none;/*no decoration */
+
+
+	
+}
+.topnavigation a:hover {/*hover on navigation*/
+	font-weight: 998;/*weight of letter*/
+	background-color: lightblue;/*bg color made*/
+	color: black;/*color  given to words*/
+	
+}
+footer img{/*image inserted to foot of page*/
+	border-radius: 35%;/* radius maintained at corner of image*/
+	height: 49px;/*height given*/
+	
+	width: 49px;/*width maintained*/
+	margin: 1%;/*gap inserted */
+}
+footer{/*made footer*/
+	align-items: left;/*show items on left side */
+font-size: 5px;/*size given to text*/
+
+text-align: center;/*words in centre*/
+
+}
+@media screen and (max-width: 600px) {/*adjust responsive properties*/
+    .column.side, .Center.Column {/*set on */
+        width: 100%;/* width of screen adjusted*/
+    }

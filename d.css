@@ -1,0 +1,112 @@
+*{/*size given*/
+	box-sizing: border-box;/*border size given*/
+}
+body{/*body created*/
+	margin: 0;/*gap  made*/
+	background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);/*background added*/
+}
+header{/*header made*/
+	 font-size: 22px;/*letter height*/
+    
+     float: all;/*float inserted*/
+     text-align: center;/*text make at centre of page*/
+     
+    
+     color: lightgrey;/*color to text*/
+     font-family: 'Permanent Marker', cursive;/* style of words*/
+}
+.topnavigation{/*navigation made*/
+		opacity: 0.3;/*make transparent*/
+
+	background-color: white;/*bg color*/
+	
+	overflow: hidden;/*create hidden*/
+	text-shadow: 4%;/*shawdo to letter*/
+	display: block;/*weight of letter*/
+	letter-spacing: 9%;/*maintained gap*/
+	text-align: center;/*text at centre*/
+}
+.topnavigation a{/*sub head of bar made*/
+	opacity: 0.5;/*create transparent*/
+	display: block;/*words made in bold*/
+	
+	
+	padding: 13px 15px;/*padding created*/
+	text-align: center;/*words in centre page*/
+	text-decoration: none;/*done decoration*/
+	float: left;/*left float inserted*/
+	color: black;/*color letter*/
+	transition: 0.5s;/*made transsition*/
+	font-size: 24px;/* size of letter*/
+	padding: 1%;/*create paddding*/
+	
+}
+.topnavigation a:hover {/* hover on navigation made*/
+	color: black;/*letter colour*/
+	background-color: lightblue;/*change page bg  color*/
+	
+	font-weight: 999;/* letter weight*/
+}
+img{/*image insert*/
+	
+	height: 49px;/* image height given*/
+	margin: 1%;/*proper gap made*/
+	border-radius: 25%;/*side boarder of image made*/
+	width: 49px;/*width given to iimage*/
+	
+}
+article{/*made  class*/
+	justify-content: space-around;/*equal gap is given*/
+	display: flex;/*flex properties is used*/
+	
+	margin: 4px;/*proper margin is made*/
+}
+article img{/*made class with image insterted*/
+	height: 298px;/*proper  hheight given*/
+	width: 298px;/*width given*/
+	
+	border-radius: 3%;/*corner radius of image is created*/
+}
+section{/*made section*/
+	display: flex;/*flex added*/
+	justify-content: flex-start;/*proper spacing*/
+}
+div h1{/*size of heading*/
+	font-size: 41px;/*letter size*/
+	margin: 5%;/*proper gap made*/
+	
+	color: white;/*word color*/
+}
+.begin{/*class created*/
+	margin-left: 21px;/*proper gap at left */
+	color: white;/*letter color change*/
+	align-items: left;/*display in left*/
+	width: 21%;/*width made*/
+	
+	font-size: 26px;/*letter size*/
+	
+	
+	box-shadow: 6px 11px purple;/*created shadow*/
+	padding:4px;/*padding created*/
+
+}
+.end{/*class cmade*/
+	box-shadow: 6px 11px grey;/*shadow inserted*/
+	padding:4px;/*createdpadding*/
+	
+	align-items: left;/*show  on left*/
+	color: white;/*colorofletter given*/
+	margin-left: 11px;/*gap to left*/
+	
+	width: 21%;/*proper width given*/
+	font-size: 26px;/* size given*/
+}
+footer{
+font-size: 15px;/*letter size*/
+
+text-align: center;/*letter at center*/
+}
+@media screen and (max-width: 600px) {/*adjust responsive properties*/
+    .column.side, .Center.Column {/*set on */
+        width: 100%;/* width of screen adjusted*/
+    }

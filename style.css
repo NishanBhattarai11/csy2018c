@@ -1,0 +1,71 @@
+*{/*box size conducted*/
+	box-sizing: border-box;/*box size*/
+}
+body{/*body created*/
+	background-image: url(maa.jpg);/*back page image*/
+	background-size: cover;/*size of image*/
+
+}
+header{/*header is operated*/
+    text-align: center;/*words are made in center*/
+    font-size: 25px;/*size of letter*/
+     
+     font-weight: 997px;
+     font-family: 'Permanent Marker', cursive;/*writing style*/
+     
+     color: lightgrey;/*words color*/
+}
+.topnavigation{/*top navigation bar made*/
+	
+	display: block;/*words is transformed*/
+	text-align: center;/*words is made to center*/
+	text-shadow: 4%;/*shadow created*/
+	letter-spacing: 4%;/*space between letter made*/
+	background-color: white;/*back page color*/
+	opacity: 0.4;/*opaque is made*/
+	background-color: white;/*back page color*/
+	
+}
+.topnavigation a{/*top navigation bar is made*/
+	opacity: 0.4%;/*opaque is made*/
+	padding: 0.8%;/*padding created*/
+	text-decoration: none;/*decoration is made*/
+	display: block;/*words are transformed*/
+	transition: 0.6s;/*transition created*/
+	font-size: 24px;/*words size*/
+	color: black;/*words color*/
+	
+}
+.topnavigation a:hover {/*top navigation bar hover effect*/
+	text-decoration-color: black;
+	background-color: lightblue;/*back color page*/
+	color: black;/*words color*/
+	font-weight: 998;/*words weightage*/
+	
+}
+.detail.info{/*class created*/
+	text-decoration: none;/*no any decoration*/
+	text-align: center;/*text in centre*/
+	
+	font-size: 24px;/*letter size*/
+	margin-top: 9%;/*margin made from top*/
+	font-weight: 999px;
+}
+footer img{/*image in foot of page id created*/
+	width: 49px;/*image width*/
+	height: 49px;/*height of image*/
+	margin: 0.8%;/*margin created*/
+	
+	
+}
+footer{/*footer created*/
+	align-items: left;/*items tranferred to left side*/
+
+	font-size: 14px;
+
+	text-align: center;
+}
+@media screen and (max-width: 600px) {/*adjust responsive properties*/
+    .column.side, .Center.Column {/*set on */
+        width: 100%;/* width of screen adjusted*/
+    }
